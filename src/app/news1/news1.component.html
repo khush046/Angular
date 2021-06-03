@@ -1,0 +1,76 @@
+<!-- <div class="container" style="margin-left: 500px;">
+    <h1 style="color: rgb(207, 183, 138);"><b>News Portal</b></h1>
+</div> -->
+
+
+<p>{{ getData() }}</p>
+<div class="container" style="margin-right: 50px;" style="margin-top: 70px;">
+    <div class="row">
+            <div class="col-sm-3" *ngFor="let ur of user_data" style="margin-left: 100px;" style="margin-right: 50px;">
+                        <div class="card" style="width:300px" >
+                            <img class="card-img-top" [src]="ur.img"  class="img-thumbnail" alt="Card image" style="width:100%" width="304" height="236">
+                            <div class="card-body">
+                                <h4 class="card-title">{{ur.id}} {{ur.name}}</h4>
+                                <p class="card-text"><a [href]="ur.link"><b><h5>Live News-->></h5></b></a></p>
+                            </div>
+                        </div>
+                        
+            </div>
+            
+    </div>
+</div>
+
+<!-- <nav class="navbar navbar-expand-md fixed-top font-weight-bold" style="margin-top: 50px;">
+    <a class="navbar-brand nav-link p-2" href="#">
+        <b>News Portal</b>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    &nbsp;<i class="fa fa-home" style="color: white;"></i>&nbsp; Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    &nbsp;<i class="fa fa-info-circle" style="color: white;"></i>&nbsp; About
+                </a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    &nbsp;<i class="fa fa-calendar"></i>&nbsp; Events
+                </a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    &nbsp;<i class="fa fa-image"></i>&nbsp; Photos
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    &nbsp;<i class="fa fa-video"></i>&nbsp; Videos
+                </a>
+            </li>
+
+            <li class="nav-item">
+              <form class="example" action="/action_page.php" style="margin:auto;max-width:500px" style="margin-left: 200px;">
+                  <input type="text" placeholder="Search.." name="search2">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </li> 
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    &nbsp;<i class="fas fa-sign-in-alt"></i>&nbsp; Login
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav> 
+ -->

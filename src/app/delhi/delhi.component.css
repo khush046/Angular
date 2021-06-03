@@ -1,0 +1,87 @@
+.nav-link {
+    color:white;
+    text-align: center;
+    transition: .3s;
+  }
+  .nav-link:hover {
+    color:white;
+    box-shadow: 0px 0px 4px 1px #ffffff85;
+    text-shadow: 0px 0px 1px white;
+  }
+  
+  .navbar-toggler {
+    transition: .5s;
+    border: 2px solid #ffffff9e;
+    color: black;
+  }
+  .navbar-toggler:hover {
+    box-shadow: 0px 0px 4px 2px #ffffff85;
+    text-shadow: 0px 0px 2px white;
+  } */
+  .sidenav .nav-link {
+    color: #ffffffba;
+    white-space: nowrap;
+    transition: .3s;
+  }
+  .sidenav .nav-link:hover {
+    background-color: #a7a7a766;
+    color: #fff;
+  } 
+  
+  form.example input[type=text] {
+   padding: 05px;
+   left: 100px;
+   font-size: 17px;
+   border: 1px solid grey;
+   float: left;
+   width: 80%;
+   background: #f1f1f1;
+  }
+  
+  form.example button {
+   float: left;
+   width: 20%;
+   left: 100px;
+   padding: 05px;
+   background:  rgb(43, 43, 90);
+   color: white;
+   font-size: 17px;
+   border: 1px solid grey;
+   border-left: none;
+   cursor: pointer;
+  }
+  
+  form.example button:hover {
+   background: maroon;
+  }
+  
+  form.example::after {
+   content: "";
+   clear: both;
+   display: table;
+  }
+  
+  .column {
+   float: left;
+   width: 25%;
+   padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+   content: "";
+   display: table;
+   clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+     display: block;
+     margin-bottom: 20px;
+   }
+  }
